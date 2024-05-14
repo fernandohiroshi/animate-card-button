@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       <a
-        href="/"
+        href="https://fernandohiroshi.vercel.app/"
         className="text-white hover:text-purple-400 ease-in-out duration-300 font-bold fixed right-8 md:right-16 top-8 underline"
         title="Hiroshi portfolio"
       >

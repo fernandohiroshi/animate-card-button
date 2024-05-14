@@ -2,7 +2,7 @@ import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import Link from "next/link";
 import React from "react";
 
-const ProjectButton = () => {
+const AnimateCardButton = () => {
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
 
@@ -51,4 +51,4 @@ const ProjectButton = () => {
   );
 };
 
-export default ProjectButton;
+export default AnimateCardButton;

@@ -12,7 +12,7 @@ pnpm install
 ## Running the Project
 To start the project in development mode, use one of the following commands:
 
-```bash
+
 yarn dev
 # or
 npm run dev

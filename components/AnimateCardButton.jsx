@@ -43,18 +43,16 @@ const AnimateCardButton = () => {
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       style={{ transformStyle: "preserve-3d", rotateX, rotateY }}
-      className="relative w-72 h-96 lg:w-96 rounded-3xl bg-white/80"
+      className="relative w-80 h-96 lg:w-96 rounded-3xl bg-white/80"
     >
-      {/* Create a link with animated background */}
-      <Link
-        href="/projects"
-        title="Projects"
+      {/* animated background */}
+      <div
         style={{
           transform: "translatez(75px)",
           transformStyle: "preserve-3d",
         }}
-        className="absolute inset-8 flex shrink-0 flex-col items-center justify-center rounded-2xl bg-black bg-[url('/test.gif')] bg-cover bg-center bg-no-repeat shadow-2xl animate-pulse"
-      ></Link>
+        className="absolute inset-4 flex shrink-0 flex-col items-center justify-center rounded-2xl bg-black bg-[url('/test.gif')] bg-cover bg-center bg-no-repeat shadow-2xl animate-pulse cursor-grab"
+      ></div>
     </motion.div>
   );
 };

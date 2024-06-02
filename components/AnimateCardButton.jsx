@@ -51,7 +51,7 @@ const AnimateCardButton = () => {
           transform: "translatez(75px)",
           transformStyle: "preserve-3d",
         }}
-        className="absolute inset-4 flex shrink-0 flex-col items-center justify-center rounded-2xl bg-black bg-[url('/test.gif')] bg-cover bg-center bg-no-repeat shadow-2xl animate-pulse cursor-grab"
+        className="absolute inset-4 flex shrink-0 flex-col items-center justify-center rounded-2xl bg-black bg-[url('/test.gif')] bg-cover bg-center bg-no-repeat shadow-2xl cursor-grab"
       ></div>
     </motion.div>
   );
